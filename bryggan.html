@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bryggan - Sesam</title>
+    <link rel="shortcut icon" type="image/x-icon" href="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\favicon.ico" />
+
+    <!-- Bulma css and font awesome -->
+    <link rel="stylesheet" href="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\bulma-0.6.0\css\bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Custom css -->
+    <link rel="stylesheet" href="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\bulma-0.6.0\css\site.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar-custom" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\sesamLogo-big.png" alt="Sesam" class="sesam-logo">
+                    <h1 class="subtitle" id="navbar-title">Sesam</h1>
+                </a>
+    
+                <button class="button navbar-burger is-transparent" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-start" id="navbar-start">
+                    <a class="navbar-item" href="introduktion.html">Introduktion</a>
+                    <!--<div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="c:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\evenemang.html">
+                            Evenemang & Event
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="#">SUP-Sittningen</a>
+                            <a class="navbar-item" href="#">Herr & Dam</a>
+                            <a class="navbar-item" href="#">Informatiksittningen</a>
+                            <a class="navbar-item" href="#">Båtfesten</a>
+                            <a class="navbar-item" href="#">After Work</a>
+                            <a class="navbar-item" href="#">Julbalen</a>
+                            <a class="navbar-item" href="#">Vårbalen</a>
+                            <a class="navbar-item" href="#">Nätverksdagen</a>
+                            <a class="navbar-item" href="#">Sesam masters</a>
+                            <a class="navbar-item" href="#">Sesam IF</a>
+                            <a class="navbar-item" href="#">Kodstuga</a>
+                        </div>
+                    </div> -->
+                    <a class="navbar-item" href="evenemang.html">Våra evenemang</a>
+                    <a class="navbar-item" href="bryggan.html">Bryggan</a>
+                    <a class="navbar-item" href="produkter.html">Produkter</a>  
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Företag
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="samarbetspartners.html">Samarbetspartners</a>
+                            <a class="navbar-item" href="jobbmojligheter.html">Jobbmöjligheter</a>
+                            <a class="navbar-item" href="mentorskapsprojektet.html">Mentorskapsprojektet</a>
+                        </div>
+                    </div>
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Om Sesam
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="vad-ar-sesam.html">Vad är Sesam?</a>
+                            <a class="navbar-item" href="sesams-vardegrund.html">Sesams värdegrund</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item" href="styrelsen.html">Styrelsen</a>
+                            <a class="navbar-item" href="utskott.html">Utskott</a>
+                            <a class="navbar-item" href="fullmaktige-och-ledarmoter.html">Fullmäktige och ledarmöter</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item" href="handlingar.html">Handlingar</a>
+                            <a class="navbar-item" href="arkiv.html">Arkiv</a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="megan.html">MEGAN</a>
+                    <a class="navbar-item" href="campusmassan.html">Campusmässan</a>
+                    <a class="navbar-item" href="kontakta-oss.html">Kontakta oss</a>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item" href="https://www.facebook.com/Sesamit/?fref=ts" target="_blank">
+                        <i class="fa fa-facebook-square fa-2x"></i>
+                    </a>
+                    <a class="navbar-item" href="https://www.instagram.com/sesamofficial/?hl=en" target="_blank">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </a>
+                    <a class="navbar-item" href="https://www.youtube.com/channel/UCPMUUnFPykfysRRaWxrccAA" target="_blank">
+                        <i class="fa fa-youtube fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    <!-- End navigation -->
+    <!--Banner-->
+    <section class="hero is-dark is-large">
+        <div class="hero-body" id="bryggan-banner">
+            <div class="has-text-centered" id="bryggan-logo">
+                <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\bryggan\logga.png">
+            </div>
+        </div>
+    </section>
+    <!-- end banner -->
+
+    <!-- välkommen till bryggan -->
+    <section class="section">
+        <div class="container">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical is-8">
+                            <article class="tile is-child">
+                                <p class="title is-1">Välkommen till Bryggan!</p>
+                                <p class="subtitle"> - Örebros ända riktiga studentpub</p>
+                                <div class="content">
+                                    Bryggan är studentpuben på Örebro Universitets campus där alla studenter kan ha en trevlig stund, dricka och äta billigt.
+                                    Belägen på Studentgatan 2 mitt emot Bågen och ett stenkast från Pressbyrån och Kårhuset.
+                                    <br>
+                                    <br> Bildades redan 1996 och har efter det växt mer och mer för varje år. Den ägs av
+                                    studentsektionen Sesam på Örebro Universitet och samarbetar även med andra studentsektioner
+                                    såväl som Örebro Studentkår och Kårhuset.
+                                    <br>
+                                    <br> Driven av studenter för studenter finns Bryggan öppen för den som är törstig och/eller
+                                    hungrig.
+                                </div>
+                            </article>
+                            <article class="tile is-child">
+                                <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\bryggan\IMG_0916.jpg">
+                            </article>
+                        </div>
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child">
+                                <div class="content has-text-centered">
+                                    <p class="subtitle"><strong>Kolla in vår meny!</strong></p>
+                                    <a class="button is-medium is-info is-outlined" href="#bryggan-meny">    
+                                                <span class="icon">
+                                                    <i class="fa fa-eye"></i>
+                                                </span>
+                                                <span>Direkt till menyn</span> 
+                                            </a>
+                                </div>
+                            </article>
+                            <article class="tile is-child is-warning">
+                                <article class="message">
+                                    <div class="message-header">
+                                        <p>Öppettider</p>
+                                    </div>
+                                    <div class="message-body">
+                                        <p><strong>Onsdagar:</strong> 17.00 - 23.00</p>
+                                        <p><strong>Fredagar:</strong> 19.00-01.00 </p>
+                                    </div>
+                                </article>
+                            </article>
+                            <article class="tile is-child is-warning">
+                                <article class="message">
+                                    <div class="message-header">
+                                        <p>Kontanter & Barappen</p>
+                                    </div>
+                                    <div class="message-body">
+                                        <p>Vi tar endast <strong>kontanter</strong> eller <strong>kortbetalning</strong> igenom
+                                            Barappen. Ladda ner den här: </p>
+                                        <br>
+                                        <div class="has-text-centered">
+                                            <a href="https://itunes.apple.com/se/app/barappen/id1029884143?mt=8" id="btn-barappen" target="_blank" class="button is-medium is-info is-outlined"> <i class="fa fa-2x fa-apple" aria-hidden="true"></i></a>
+                                            <br>
+                                            <br>
+                                            <a href="https://play.google.com/store/apps/details?id=se.barappen.barappen" id="btn-barappen" class="button is-medium is-info is-outlined"
+                                                target="_blank"><i class="fa fa-2x fa-android" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </article>
+                        </div>
+                        <!-- end right tile-section -->
+                    </div>
+                    <!-- end tile -->
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end välkommen bryggan -->
+
+    <!-- Boka eller provjobba -->
+    <section class="hero is-primary is-medium is-bold">
+        <div class="hero-body" id="bryggan-boka">
+            <div class="content">
+                <div class="column is-half is-offset-one-quarter">
+                    <p class="title is-1">Boka eller provjobba?</p>
+                    <p class="subtitle" id="bryggan-jobb-text">Är du intresserad av att boka eller prova arbeta på bryggan, kontakta klubbmästare <strong>Elin Hålldin</strong> via antingen 
+                        <strong><a>mail</a></strong>, 
+                        telefon: <a>076-308 09 96</a> eller snacka med oss bakom baren helt enkelt!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end boka eller provjobba -->
+
+    <!-- MENY -->
+    <section class="section" id="bryggan-meny">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="fa fa-beer fa-1x"></i>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <table id="beer-table" class="table table-striped table-bordered">
+                                <tr>
+                                    <th>
+                                        Öl
+                                    </th>
+                                    <th>
+                                        Pris
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- end table -->
+                <div class="column">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="fa fa-glass fa-1x"></i>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <table id="vin-table" class="table table-striped table-bordered">
+                                <tr>
+                                    <th>
+                                        Vin
+                                    </th>
+                                    <th>
+                                        Pris
+                                    </th>
+                                </tr>
+                            </table>
+                            <table id="cider-table" class="table table-striped table-bordered">
+                                <tr>
+                                    <th>
+                                        Cider
+                                    </th>
+                                    <th>
+                                        Pris
+                                    </th>
+                                </tr>
+                            </table>
+                            <table id="sprit-table" class="table table-striped table-bordered">
+                                <tr>
+                                    <th>
+                                        Sprit
+                                    </th>
+                                    <th>
+                                        Pris
+                                    </th>
+                                </tr>
+                            </table>
+                            <table id="lask-table" class="table table-striped table-bordered">
+                                <tr>
+                                    <th>
+                                        Läsk
+                                    </th>
+                                    <th>
+                                        Pris
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- end table -->
+                </div>
+                <div class="column">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="fa fa-cutlery fa-1x"></i>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <table id="mat-table" class="table table-striped table-bordered">
+                                <tr>
+                                    <th>
+                                        Mat
+                                    </th>
+                                    <th>
+                                        Pris
+                                    </th>
+                                </tr>
+                            </table>
+                            <table id="ovrigt-table" class="table table-striped table-bordered">
+                                <tr>
+                                    <th>
+                                        Övrigt
+                                    </th>
+                                    <th>
+                                        Pris
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- end table -->
+                </div>
+            </div><!-- end columns -->
+        </div>
+        <!-- end container -->
+    </section>
+
+    <!-- FOOTER-->
+    <footer class="footer custom-footer">
+            <div class="container">
+                <div class="columns has-text-centered">
+                    <div class="column is-3 is-offset-1">
+                        <h1 class="subtitle has-text-white"><i class="fa fa-map" aria-hidden="true"></i> Adress</h1>
+                        <p>Studentsektionen Sesam</p>
+                        <p>Fakultetsgatan 1</p>
+                        <p>70181 Örebro</p>
+                    </div>
+                    <div class="column is-3">
+                        <p class="subtitle has-text-white"><i class="fa fa-clock-o" aria-hidden="true"></i> Öppettider</p>
+                        <p>Kontorstid:</p>
+                        <p> mån-fre 12.00-13.00</p>
+                        <p>ORU-kort:</p>
+                        <p> mån-fre  07.30-18.00</p>
+                    </div>
+                    <div class="column is-3">
+                        <h1 class="subtitle has-text-white"><i class="fa fa-envelope" aria-hidden="true"></i> Kontakt</h1>
+                        <p>070-918 78 91</p>
+                        <p>info@sesamit.se</p>
+                        
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="card-footer-item">
+                        <span>
+                            <a href="https://www.facebook.com/Sesamit/?fref=ts" class="has-text-white" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>   
+                        </span>
+                    </p>
+                    <p class="card-footer-item">
+                        <span>
+                            <a href="https://www.instagram.com/sesamofficial/?hl=en" class="has-text-white" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
+                        </span>
+                    </p>
+                    <p class="card-footer-item">
+                        <span>
+                            <a href="https://www.youtube.com/channel/UCPMUUnFPykfysRRaWxrccAA" class="has-text-white" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    <!--Javascript -->
+    <script src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\js\site.js"></script>
+
+    <!-- get menu script -->
+    <script type="text/javascript">
+        $.getJSON("https://barappen.se:9310/api/v020/menu/1",
+            function (data) {
+                $.each(data.menu,
+                    function () {
+                        $.each(this,
+                            function () {
+                                if (this.category.name == "Öl") {
+                                    $("#beer-table")
+                                        .append("<tr> " +
+                                            "<td>" +
+                                            this.name +
+                                            "</td>" +
+                                            "<td>" +
+                                            (-1 * this.cost) +
+                                            " kr</td>" +
+                                            "</tr>" +
+                                            "");
+                                };
+                                if (this.category.name == "Vin") {
+                                    $("#vin-table")
+                                        .append("<tr> " +
+                                            "<td>" +
+                                            this.name +
+                                            "</td>" +
+                                            "<td>" +
+                                            (-1 * this.cost) +
+                                            " kr</td>" +
+                                            "</tr>" +
+                                            "");
+                                }
+                                if (this.category.name == "Cider") {
+                                    $("#cider-table")
+                                        .append("<tr> " +
+                                            "<td>" +
+                                            this.name +
+                                            "</td>" +
+                                            "<td>" +
+                                            (-1 * this.cost) +
+                                            " kr</td>" +
+                                            "</tr>" +
+                                            "");
+                                }
+                                if (this.category.name == "Sprit") {
+                                    $("#sprit-table")
+                                        .append("<tr> " +
+                                            "<td>" +
+                                            this.name +
+                                            "</td>" +
+                                            "<td>" +
+                                            (-1 * this.cost) +
+                                            " kr</td>" +
+                                            "</tr>" +
+                                            "");
+                                }
+                                if (this.category.name == "Mat") {
+                                    $("#mat-table")
+                                        .append("<tr> " +
+                                            "<td>" +
+                                            this.name +
+                                            "</td>" +
+                                            "<td>" +
+                                            (-1 * this.cost) +
+                                            " kr</td>" +
+                                            "</tr>" +
+                                            "");
+                                }
+                                if (this.category.name == "Övrigt") {
+                                    $("#ovrigt-table")
+                                        .append("<tr> " +
+                                            "<td>" +
+                                            this.name +
+                                            "</td>" +
+                                            "<td>" +
+                                            (-1 * this.cost) +
+                                            " kr</td>" +
+                                            "</tr>" +
+                                            "");
+                                }
+                                if (this.category.name == "Läsk") {
+                                    $("#lask-table")
+                                        .append("<tr> " +
+                                            "<td>" +
+                                            this.name +
+                                            "</td>" +
+                                            "<td>" +
+                                            (-1 * this.cost) +
+                                            " kr</td>" +
+                                            "</tr>" +
+                                            "");
+                                }
+                            });
+                    });
+            });
+
+    </script>
+</body>
+
+</html>

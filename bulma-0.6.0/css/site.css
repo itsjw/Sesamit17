@@ -1,0 +1,521 @@
+
+
+#fa-blue {
+    color: #5542FF;
+}
+.sesam-background {
+    background-color: #3b469d;
+}
+.custom-footer {
+    background-color: #5542FF;
+    color: white;
+}
+#button-instagram {
+    background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: -moz-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: -ms-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: -o-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    color: white;
+    border-color: transparent;
+}
+.img-rounded {
+    border-radius: 50%;
+}
+.img-rounded-corners {
+    border-radius: 4px;
+}
+#btn-barappen {
+    width: 50%;
+}
+/*Navbar*/
+#navbar-title {
+    margin-left: 15px;
+}
+
+#navbar-custom {
+    background-color: rgba(255, 255, 255, 0.97);
+    transition: all 200ms linear;
+    padding: 25px 0px 25px 0px;
+}
+
+.navbar-start {
+    margin: auto;
+    width: 70%;
+}
+
+.navbar-start.is-active {
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+}
+
+.navbar { position: fixed !important; top: 0; left: 0; right: 0; z-index: 1035; }
+
+.footer {
+    padding-bottom: 0px;
+}
+.sesam-logo {
+    animation: zoom-small 0.5s linear;
+}
+
+@media screen and (max-width: 768px) {
+    #navbar-custom {
+        padding: 0px;
+    }
+    .navbar-menu {
+        overflow-y: scroll;
+        -webkit-overflow-scrolling:touch; 
+    }
+}
+/*Animations*/
+@keyframes zoom {
+    0% { transform: scale(5.1); }
+    100% { transform: scale(1.1); }
+}
+@keyframes zoom-small {
+    0% {transform: scale(2.1)}
+    100% { transform: scale(1.1) }
+}
+@keyframes heart-animation {
+    0% {transform: scale(1.1)}
+    25% { transform: scale(2.1) }
+    50% { transform: scale(1.1)  }
+    75% { transform: scale(2.1) }
+    100% { transform: scale(1.1) }  
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes blurText {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+/*INDEX*/
+#hero-index {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers/15-09-11-orebrodagen-2015-57665-faded.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#index-lofte {
+    animation: zoom 0.5s linear;
+}
+#index-jobb {
+    background-color: #209cee;
+}
+#hero-vad-ar-sesam {
+    margin-bottom: 0px;
+}
+#hero-ordforande{
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/styrelse/Anton_Index.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    #hero-ordforande {
+        background: #00d1b2;
+    }
+    .index-icon {
+        display: none;
+    }
+    #index-lofte {
+        padding-top: 25px;
+    }
+}
+/* EVENEMANG */
+#hero-evenemang {
+    background-image: url("c:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers/front-page.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.brighten {
+    filter: brightness(30%);
+    -webkit-filter: brightness(30%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+  .brighten:hover {
+      filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+  }
+  .image:hover .centered {
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+/* SAMARBETSPARTNERS */
+#samarbetspartners-banner {
+    background-image: url("C:Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers/nova-bunker.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media screen and (max-width: 768px) {
+    #samarbetspartners-icon {
+        display: none;
+    }
+    #samarbetspartners-title {
+        padding-top: 25px;
+    }
+}
+
+/* INTRODUKTION */
+#introduktion-banner {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers\/front-page.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#intro-grattis {
+    background-color: #3b469d;
+}
+#introk-tile {
+    background-color: #3b469d;
+}
+#intro-tile-footer {
+    background-color: #3b469d;
+}
+#btn-intro-schedual {
+    width: 50%;
+}
+#btn-intro-schedual:hover {
+    background-color: white;
+    color: #3B469D;
+}
+#intro-valkommen {
+    background-color: #3B469D;
+}
+
+/* BRYGGAN */
+#bryggan-banner {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers/IMG_0930.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#bryggan-boka {
+    background-color: #3b469d;  
+}
+#bryggan-jobb-text {
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    #bryggan-logo {
+        padding-top: 25px;
+    }
+}
+
+/* STYRELSEN */
+#hero-styrelsen {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/styrelse/styrelsen-banner.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media screen and (max-width: 768px) {
+    #styrelsen-header-text {
+        padding-top: 25px;
+    }
+}
+.styrelse-card {
+    height: 89vh;
+}
+
+
+/* VAD ÄR SESAM */
+#hero-vad-ar-sesam {
+    /*background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/styrelse/styrelsen-banner.jpg");*/
+    background-color: #3B469D;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#hero-sero {
+    background-color: #AB007C;
+}
+#hero-sektionsmoten {
+    margin-bottom: 0px;
+}
+* {margin: 0; padding: 0;}
+
+.tree ul {
+	padding-top: 20px; position: relative;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.tree li {
+	float: left; text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 5px 0 5px;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+	content: '';
+	position: absolute; top: 0; right: 50%;
+	border-top: 1px solid #ccc;
+	width: 50%; height: 20px;
+}
+.tree li::after{
+	right: auto; left: 50%;
+	border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+	display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+	border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0; height: 20px;
+}
+
+.tree li a{
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #666;
+	font-family: arial, verdana, tahoma;
+	font-size: 11px;
+	display: inline-block;
+	
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+	background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before{
+	border-color:  #94a0b4;
+}
+
+@media screen and (max-width: 768px) {
+    #vad-ar-sesam-header {
+        padding-top: 25px;
+    }
+}
+
+/*SESAMS VÄRDEGRUND */
+#vardegrund-banner {
+    background-image: url("c:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers/styrelse-lofte.JPG");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+#vår-vision-hero {
+    background-color: #3B469D;
+}
+#vardegrund-thumb-text {
+    padding-top: 100px;
+}
+
+
+/* UTSKOTT */
+#utskott-banner {
+    background-color: #3B469D;
+}
+.tabcontent {
+    display: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* FULLMÄKTIGE OCH LEDARMÖTER */
+#fullmaktige-banner {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/fullmaktige/fum.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+/* HANDLINGAR */
+#handlingar-banner {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/fullmaktige/fum.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+/* ARKIV */
+#arkiv-banner {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers/akriv.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+/* JOBBMÖJLIGHETER */
+#jobbmojligheter-banner {
+    background-color: #3B469D;
+    background: -webkit-linear-gradient(left, #3B469D , rgb(39, 37, 80)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #3B469D, rgb(39, 37, 80)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #3B469D, rgb(39, 37, 80)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #3B469D , rgb(39, 37, 80)); /* Standard syntax */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.jobb-header {
+    background-color: #3B469D !important;
+}
+
+/* MENTORSKAPSPROJEKTET */
+#mentorskapsprojektet-banner {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers/handelshogskolaentre.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+/* MEGAN */
+#hero-megan {
+    background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/megan/megan-header.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+#megan-om-hero {
+    background-color: #b41e8e;
+}
+
+.img-megan {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width: 768px) {
+    #hero-megan {
+        background-image: url("C:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/megan/megan-header-small.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top: 350px;
+    }
+}
+
+/* CAMPUSMÄSSAN */
+#campusmassan-banner {
+    background-image: url("c:/Users/Oliver/Documents/Skola/Sesam/sesamit-ht17/img/headers/campusmassan.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    #campusmassan-banner {
+        padding-top: 150px;
+    }
+    #campusmassan-text {
+        padding-bottom: 50px;
+    }
+}
+
+/* KONTAKTA OSS */
+#kontakta-oss-banner {
+    background-color: #3B469D;
+}

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Utskott - Sesam</title>
+    <link rel="shortcut icon" type="image/x-icon" href="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\favicon.ico" />
+
+    <!-- Bulma css and font awesome -->
+    <link rel="stylesheet" href="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\bulma-0.6.0\css\bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Custom css -->
+    <link rel="stylesheet" href="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\bulma-0.6.0\css\site.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar-custom" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\sesamLogo-big.png" alt="Sesam" class="sesam-logo">
+                    <h1 class="subtitle" id="navbar-title">Sesam</h1>
+                </a>
+    
+                <button class="button navbar-burger is-transparent" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-start" id="navbar-start">
+                    <a class="navbar-item" href="introduktion.html">Introduktion</a>
+                    <!--<div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="c:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\evenemang.html">
+                            Evenemang & Event
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="#">SUP-Sittningen</a>
+                            <a class="navbar-item" href="#">Herr & Dam</a>
+                            <a class="navbar-item" href="#">Informatiksittningen</a>
+                            <a class="navbar-item" href="#">Båtfesten</a>
+                            <a class="navbar-item" href="#">After Work</a>
+                            <a class="navbar-item" href="#">Julbalen</a>
+                            <a class="navbar-item" href="#">Vårbalen</a>
+                            <a class="navbar-item" href="#">Nätverksdagen</a>
+                            <a class="navbar-item" href="#">Sesam masters</a>
+                            <a class="navbar-item" href="#">Sesam IF</a>
+                            <a class="navbar-item" href="#">Kodstuga</a>
+                        </div>
+                    </div> -->
+                    <a class="navbar-item" href="evenemang.html">Våra evenemang</a>
+                    <a class="navbar-item" href="bryggan.html">Bryggan</a>
+                    <a class="navbar-item" href="produkter.html">Produkter</a>  
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Företag
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="samarbetspartners.html">Samarbetspartners</a>
+                            <a class="navbar-item" href="jobbmojligheter.html">Jobbmöjligheter</a>
+                            <a class="navbar-item" href="mentorskapsprojektet.html">Mentorskapsprojektet</a>
+                        </div>
+                    </div>
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Om Sesam
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="vad-ar-sesam.html">Vad är Sesam?</a>
+                            <a class="navbar-item" href="sesams-vardegrund.html">Sesams värdegrund</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item" href="styrelsen.html">Styrelsen</a>
+                            <a class="navbar-item" href="utskott.html">Utskott</a>
+                            <a class="navbar-item" href="fullmaktige-och-ledarmoter.html">Fullmäktige och ledarmöter</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item" href="handlingar.html">Handlingar</a>
+                            <a class="navbar-item" href="arkiv.html">Arkiv</a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="megan.html">MEGAN</a>
+                    <a class="navbar-item" href="campusmassan.html">Campusmässan</a>
+                    <a class="navbar-item" href="kontakta-oss.html">Kontakta oss</a>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item" href="https://www.facebook.com/Sesamit/?fref=ts" target="_blank">
+                        <i class="fa fa-facebook-square fa-2x"></i>
+                    </a>
+                    <a class="navbar-item" href="https://www.instagram.com/sesamofficial/?hl=en" target="_blank">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </a>
+                    <a class="navbar-item" href="https://www.youtube.com/channel/UCPMUUnFPykfysRRaWxrccAA" target="_blank">
+                        <i class="fa fa-youtube fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    <!-- End navigation -->
+
+    <!--Banner-->
+    <section class="hero is-info is-large is-bold">
+        <div class="hero-body" id="utskott-banner">
+            <div class="container has-text-centered">
+                <h1 class="title is-1">
+                    Utskott
+                </h1>
+                <h2 class="subtitle">
+                    Sesam består förutom av en styrelse även av 7 st utskott. Dessa är näringslivsutskottet, finansutskottet, markandsförignsutskottet,
+                    utbildningsutskottet, informatikutskottet, studiesociala och vår egna studentpub bryggan.
+                </h2>
+                <p class="subtitle">
+                    Utskotten består av våra medlemmar och är oerhört viktiga för att Sesam ska fungera. Utskotten är de som möjliggör och genomför
+                    de olika aktiviteter Sesam ordnar för sina medlemmar. Detta är aktiviteter som innebär bland anant utbildningsbevakning,
+                    studiesociala aktiviteter så som sittningar och andra studiesociala evenemang samt kontakter med näringslivet.
+                    Mer information om de olika utskotten hittar du nedan.
+                </p>
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end banner -->
+
+    <!--TABS -->
+    <div class="container">
+        <div class="tabs is-centered is-medium is-mobile">
+            <ul>
+                <li id="li-utskott-finans" class="tab-li is-active">
+                    <a class="tablinks" id="defaultOpen" onclick="visaUtskott(event, 'utskott-finans')">
+                                <span class="icon is-small"><i class="fa fa-money"></i></span>
+                                <span>Finans</span>
+                        </a>
+                </li>
+                <li id="li-utskott-informatik" class="tab-li">
+                    <a class="tablinks" onclick="visaUtskott(event, 'utskott-informatik')">
+                            <span class="icon is-small"><i class="fa fa-code"></i></span>
+                            <span>Informatik</span>
+                        </a>
+                </li>
+                <li id="li-utskott-marknadsforing" class="tab-li">
+                    <a class="tablinks" onclick="visaUtskott(event, 'utskott-marknadsforing')">
+                            <span class="icon is-small"><i class="fa fa-share-alt"></i></span>
+                            <span>Marknadsföring</span>
+                        </a>
+                </li>
+                <li id="li-utskott-naringsliv" class="tab-li">
+                    <a class="tablinks" onclick="visaUtskott(event, 'utskott-naringsliv')">
+                            <span class="icon is-small"><i class="fa fa-handshake-o"></i></span>
+                            <span>Näringsliv</span>
+                        </a>
+                </li>
+                <li id="li-utskott-studiesocialt" class="tab-li">
+                    <a class="tablinks" onclick="visaUtskott(event, 'utskott-studiesocialt')">
+                            <span class="icon is-small"><i class="fa fa-bullhorn"></i></span>
+                            <span>Studiesocialt</span>
+                        </a>
+                </li>
+                <li id="li-utskott-utbildning" class="tab-li">
+                    <a class="tablinks" onclick="visaUtskott(event, 'utskott-utbildning')">
+                            <span class="icon is-small"><i class="fa fa-shield"></i></span>
+                            <span>Utbildning</span>
+                        </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end tabs -->
+    </div>
+    <!-- end container -->
+
+    <!-- UTSKOTT -->
+    <!--Finans -->
+    <div id="utskott-finans" class="tabcontent">
+        <div class="container">
+            <div class="column is-8 is-offset-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\Utskott\finans.jpg" alt="Placeholder image">
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-3 has-text-centered">Finansutskottet</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Finansutskottets syfte är att främja intresset för den finansiella marknaden hos medlemmarna inom Sesam. Vi anordnar aktiviteter
+                            med fokus på den finansiella branschen. Aktiviteterna som står på schemat för kommande verksamhetsår
+                            är föreläsningar, aktiekvällar, en finansresa och den traditionsenliga aktietävlingen Game of
+                            Stocks. Utöver det har vi varje vecka ett nyhetssvep samt en analysgrupp som jobbar med att ta
+                            fram egna aktieanalyser, dit är alla välkomna, oberoende kunskapsnivå! Vi har en egen hemsida,
+                            gameofstocks.se, där du kan lära dig att handla aktier till riktiga priser, men med fiktiva pengar.
+                            Sesams Finansutskott har även en egen Facebooksida där vi sköter all kommunikation utåt om vad
+                            som händer inom utskottet, glöm inte att gilla den.
+                            <br> Är du intresserad av att engagera dig eller om du har någon fråga kan du alltid kontakta
+                            oss på finansutskottet@sesamit.se
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end finans -->
+    <!-- Informatik -->
+    <div id="utskott-informatik" class="tabcontent">
+        <div class="container">
+            <div class="column is-8 is-offset-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\Utskott\informatik.jpg" alt="Placeholder image">
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-3 has-text-centered">Informatikutskottet</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Informatikutskottet består till största delen av informatiker och jobbar med att hitta på roliga aktiviteter med inriktning
+                            på IT, ofta tillsammans med företag. Här finns möjlighet att kontakta IT-företag angående aktiviteter
+                            och samarbete med Sesam, samt driva igenom idéer som gynnar informatikstudenterna, både tillsammans
+                            med företag och rent studiesociala aktiviteter. Tidigare har vi bland annat ordnat: Föreläsning
+                            och mingel hos Nethouse Barcraft på Sesams pub Bryggan Tjejkväll hos Nethouse Föreläsningar/projektkvällar
+                            på campus och vår alldeles egna informatiksittning som är öppen för alla sesamiter.
+                            <br> Är du intresserad av att gå med i informatikutskottet? Eller undrar du över något? Skicka
+                            ett mail till informatikutskottet@sesamit.se
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end informatik -->
+    <!-- marknadsföring -->
+    <div id="utskott-marknadsforing" class="tabcontent">
+        <div class="container">
+            <div class="column is-8 is-offset-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\Utskott\marknadsföring.JPG" alt="Placeholder image">
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-3 has-text-centered">Marknadsföringsutskottet</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Marknadsföringsutskottet har som uppgift att få Sesam att synas både bland medlemmar men även externt, hos aktörer utanför
+                            universitetet. Utskottet arbetar aktivt med alla de övriga utskottens kommunikation för att på
+                            så sätt skapa en enhetlig profilering, detta görs genom text, foton och filmning, affischer och
+                            annat material. Medlemmarna i utskottet har sina egna ansvarsområden som motsvarar Sesams utskott,
+                            utöver det tillkommer tillverkning av introduktionstidning, foto och film på event samt andra
+                            projekt som anordnas av Sesam.
+                            <br> Är du intresserad av att gå med i utskottet eller har frågor, kontakta då: marknad@sesamit.se
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end marknadsföring -->
+    <!-- näringsliv -->
+    <div id="utskott-naringsliv" class="tabcontent">
+        <div class="container">
+            <div class="column is-8 is-offset-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\Utskott\näringsliv.jpg" alt="Placeholder image">
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-3 has-text-centered">Näringslivsutskottet</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Näringslivsutskottet arbetar med att upprätthålla kontakten med Sesams Samarbetspartners. Vårt syfte är att minska klyftan
+                            mellan studenter och näringslivet. Är du med i näringsutskottet blir du oftast personlig kontaktperson
+                            till en av våra Samarbetspartners. Du ansvarar för att genomföra aktiviteter tillsammans med
+                            företaget samt att marknadsföra företaget på campus. Vi genomför också flera projekt med de andra
+                            utskotten där det passar sig att företag deltar.
+                            <br> Är du intresserad av att vara med i näringslivsutskottet eller hjälpa till med något projekt?
+                            Hör då av dig till: naringsliv@sesamit.se
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end näringsliv -->
+    <!-- studiesocialt -->
+    <div id="utskott-studiesocialt" class="tabcontent">
+        <div class="container">
+            <div class="column is-8 is-offset-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\Utskott\Studiesociala-utskottet.jpg" alt="Placeholder image">
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-3 has-text-centered">Studiesociala utskottet</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Det studiesociala utskottet arrangerar olika aktiviteter som till exempel sittningar och sportturneringar. Detta utskott
+                            är till för att studenterna även ska ha roligt utanför skoltid. Målet är att få en ökad interaktion
+                            mellan alla studenter på Handelshögskolan och även folk i andra sektioner. Detta genom att erbjuda
+                            aktiviteter som passar alla smaker. Kort och gott så ska alla ha otroligt roligt på aktiviteter
+                            som studiesociala utskottet arrangerar!
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end studiesocialt -->
+    <!-- utbildning -->
+    <div id="utskott-utbildning" class="tabcontent">
+        <div class="container">
+            <div class="column is-8 is-offset-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\img\Utskott\utblidning.JPG" alt="Placeholder image">
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-3 has-text-centered">Utbildningsutskottet</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Utbildningsutskottet verkar för att garantera en bra kvalitet på våra utbildningar samt sprida kunskap gällande viktiga val
+                            inom ditt program. Vi fungerar som en länk mellan studenterna och Handelshögskolan/Örebro Universitet
+                            och vi hjälper dig när du känner dig orättvist behandlad eller helt enkelt inte tycker kursen
+                            du läser håller måttet.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end utbildning -->
+    <!-- end utskott -->
+
+
+    <!-- FOOTER-->
+    <footer class="footer custom-footer">
+            <div class="container">
+                <div class="columns has-text-centered">
+                    <div class="column is-3 is-offset-1">
+                        <h1 class="subtitle has-text-white"><i class="fa fa-map" aria-hidden="true"></i> Adress</h1>
+                        <p>Studentsektionen Sesam</p>
+                        <p>Fakultetsgatan 1</p>
+                        <p>70181 Örebro</p>
+                    </div>
+                    <div class="column is-3">
+                        <p class="subtitle has-text-white"><i class="fa fa-clock-o" aria-hidden="true"></i> Öppettider</p>
+                        <p>Kontorstid:</p>
+                        <p> mån-fre 12.00-13.00</p>
+                        <p>ORU-kort:</p>
+                        <p> mån-fre  07.30-18.00</p>
+                    </div>
+                    <div class="column is-3">
+                        <h1 class="subtitle has-text-white"><i class="fa fa-envelope" aria-hidden="true"></i> Kontakt</h1>
+                        <p>070-918 78 91</p>
+                        <p>info@sesamit.se</p>
+                        
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="card-footer-item">
+                        <span>
+                            <a href="https://www.facebook.com/Sesamit/?fref=ts" class="has-text-white" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>   
+                        </span>
+                    </p>
+                    <p class="card-footer-item">
+                        <span>
+                            <a href="https://www.instagram.com/sesamofficial/?hl=en" class="has-text-white" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
+                        </span>
+                    </p>
+                    <p class="card-footer-item">
+                        <span>
+                            <a href="https://www.youtube.com/channel/UCPMUUnFPykfysRRaWxrccAA" class="has-text-white" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    <!--Javascript -->
+    <script src="C:\Users\Oliver\Documents\Skola\Sesam\sesamit-ht17\js\site.js"></script>
+    <!-- Script för att göra finansutskottet till default visible -->
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script>
+        document.getElementsByClassName("tab-li").addEventListener("click", function(event){
+            event.preventDefault()
+        });
+  </script>
+</body>
+
+</html>
